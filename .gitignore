@@ -1,0 +1,6 @@
+#ignore target
+/lg-rpc/.idea/
+/lg-rpc/lg-rpc-api/target/
+/lg-rpc/lg-rpc-consumer/target/
+/lg-rpc/lg-rpc-provider/target/
+/lg-rpc/lg-rpc-registry/target/
