@@ -2,12 +2,14 @@
 
 This is a RPC framework based on SpringBoot framework and ZooKeeper. The project is for you to know me via a real project:  
 1) my understanding of Java: Java SE, Netty, SpringBoot 
-2) my understanding of Software Engineering (How will I organize a software project): Clean Code, design patterns, OOP  
+2) my understanding of Software Engineering in practice (How will I organize a software project): Clean Code, design patterns, OOP  
 3) some distributed system knowledge: ZooKeeper, RPC, LoadBlancer etc
  
 The basic workflow is as shown below:
 
 Service provider (Server) <-----register service-----> ZooKeeper <------invoke service ------> Service Consumer (Client)
+
+The ZooKeeper is playing the roles as servcie register center and load balancer.
 
 ## Communication between server and client
 Based on Netty (Java NIO). I implemeneted customized encoder and decoder based on the self-defined request and response objects.
