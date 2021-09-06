@@ -7,7 +7,7 @@ This is a RPC framework based on SpringBoot framework and ZooKeeper. The project
  
 The basic workflow is as shown below:
 
-Service provider (Server) <-----register service-----> ZooKeeper <------invoke service ------> Service Consumer (Client)
+(Service provider (Server)) <-----register service-----> (ZooKeeper) <------invoke service ------> (Service Consumer (Client))
 
 The ZooKeeper is playing the roles as servcie register center and load balancer.
 
